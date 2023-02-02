@@ -1,0 +1,16 @@
+a=str(input("enter a sentence"))
+b=str(input("enter a sentence"))
+count==1
+tount==1
+for i in s:
+    if i == ' ':
+        count == count+1
+
+for i in d:
+    if i == ' ':
+        tount == tount+1
+
+if count>tount:
+    print(count)
+else:
+    print(tount)
